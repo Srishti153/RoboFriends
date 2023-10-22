@@ -1,0 +1,45 @@
+.box{
+    left:50%;
+ }
+ 
+ .input{
+     left:50%;
+     margin-left:42.5%;
+     font-size:20px;
+     box-sizing:border-box;
+     transition:.5s;
+     height:40px;
+     border:none;
+     outline:none;
+     background-color:black;
+     border-radius:25px 25px 25px 25px;
+     padding:0 25px;
+     color: white;
+ }
+ 
+ .input:hover{
+     background-color:gray;
+ }
+
+
+ ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    white;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    white;
+}
